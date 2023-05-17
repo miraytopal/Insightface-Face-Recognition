@@ -1,0 +1,6 @@
+numpy~=1.21.6
+insightface>=0.7.3
+matplotlib.pyplot
+streamlit~=1.22.0
+onnxruntime~=1.14.1
+pillow~=9.5.0
