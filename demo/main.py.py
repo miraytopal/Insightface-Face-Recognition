@@ -5,12 +5,6 @@ import insightface
 from model import process_images
 from insightface.app import FaceAnalysis
 
-# user will import a picture file
-# We will show this picture to the user
-# A button will be shown to the user to start prediction
-# After prediction, the result will be shown to the user
-
-
 @st.cache_resource
 def detector_model():
     detector = insightface.model_zoo.get_model('model.onnx', download=True)
