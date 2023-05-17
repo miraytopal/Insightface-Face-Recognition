@@ -23,14 +23,14 @@ col1, col2 = st.columns(2)
 
 with col1:
 
-    file_1 = st.file_uploader("Please upload an image file", type=["jpg", "png", "jpeg"],key='file_1')
+    file_1 = st.file_uploader("Please upload an image file", type=["jpg", "png", "jpeg", "jfif"],key='file_1')
 
     if file_1:
         st.image(file_1)
 
 with col2:
 
-    file_2 = st.file_uploader("Please upload an image file", type=["jpg", "png", "jpeg"],key='file_2')
+    file_2 = st.file_uploader("Please upload an image file", type=["jpg", "png", "jpeg", "jfif"],key='file_2')
 
     if file_2:
         st.image(file_2)
