@@ -13,13 +13,12 @@ Installation
 --
 Clone the repository from github:
 ```
-[pip install -r requirements.txt](https://github.com/miraytopal/Insightface-Face-Recognition)
+git clone https://github.com/miraytopal/Insightface-Face-Recognition
 ```
 To install dependencies:
 ```
 pip install -r requirements.txt
 ```
-
 
 Demo
 -- 
